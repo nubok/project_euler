@@ -14,3 +14,6 @@ def is_prime(n):
         if (n % i == 0):
             return False
     return True
+
+def digits(n):
+    return [long(x) for x in str(n)]
